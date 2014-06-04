@@ -1,0 +1,21 @@
+\chapter{Build Management/ System Building}
+
+Hat man nun den Quellcode der einzelnen Software Komponenten in dem Software- Projekt erstellt, dann möchte man diesen ausführbar machen. Hierum kümmert sich der Build Prozess. Dieser Prozess ist zuständig für das Kompilieren und Linking der einzelnen Software Komponenten in ein ausführbares System. Da die Abhängigkeiten von den Quellcodes, Bildern und weiteren Dateien bei großen Projekten sehr komplex und unübersichtlich sind, empfiehlt es sich, diese Abhängigkeiten nicht alle manuell zu kompilieren. Hinzu kann natürlich noch kommen, dass für unterschiedliche Systeme unterschiedliche Kombinationsmöglichkeiten von Einzelkomponenten für den Build Prozess benötigt werden. Man erkennt also, dass das einfache kompilieren von Quellcode für ein Software Projekt nicht ausreicht, sondern man weitreichende Überlegungen dazu anstellen muss.
+\\
+Für diesen Build Prozesschritt gibt es inzwischen Unterstützung von automatischen Tools. Das bekannteste Tool ist make für C/C++. Weitere bekannte Tools sind Ant, Jam, Visual Studio und scons.
+Doch auch an solche automatischen Tools gibt es eine Anforderungsliste.
+\begin{itemize}
+\item Enthalten die Build Anweisungen alle benötigten Komponenten ?
+\item Ist für jede Einzelkomponenten die richtige Version spezifiert?
+\item Sind alle benötigten Dateien verfügbar ?
+\item Sind die Referenzen innerhalb der Komponenten richtig, also ruft die eine Komponenteeine andere mit den richtigen Parametern,Namen auf?
+\item Wird die Software auch für das richtige Betriebssystem erstellt?
+\item Mit welcher Kompilerversion und weiteren benötigten Software-Tools wird dieser Build- Prozess durchgeführt? 	
+\end{itemize}
+
+Prinzipiell gibt es zwei Aspekte für das Build Management. Zum ein einen ist das die Spezifikation ,also das Erstellen des Build, und zum anderen die Ausführung von einem Build, also die Produktionsphase des Build Prozesses.
+Solch ein Build Prozess kann je nach Komplexität der zu erstellenden Software sehr rechenintensiv und lange sein. 
+
+\subsection{Die Kosten eines fehlgeschlagenen Builds}
+
+

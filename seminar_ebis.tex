@@ -1,0 +1,108 @@
+\documentclass [
+	a4paper,
+	11pt,
+	oneside,
+	%twoside,
+	bibliography=totoc,
+	openright,
+	numbers=noenddot,
+	headings=normal,
+	captions=tableheading,
+	listof=totoc,
+	%chapterprefix,
+	headsepline,
+	DIV=9,
+	BCOR10mm,
+	parskip,        
+	titlepage,
+] {scrbook}
+
+
+%Begin Dokument
+
+\include{packages}
+\include{data}
+
+\begin {document}
+
+\frontmatter
+\include{titel}
+%%Anpassung der Kopf- und Fusszeilen auf den einzelnen Seiten
+
+\fancypagestyle{plain}{
+\fancyhf{}
+\fancyhead[L] {\small \sffamily \leftmark}%
+\fancyfoot[R] {\small \sffamily  \thepage}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L] {\small \sffamily \leftmark}%
+\fancyfoot[R] {\small \sffamily  \thepage}
+\renewcommand{\chaptermark}[1]{%
+\markboth{\thechapter. #1}{}
+\renewcommand{\sectionmark}[1]
+{\markright{\small\sf\thesection\ ##1}}%	
+}	
+
+
+
+%Einbinden des Abkuerzungsverzeichnisses
+\tableofcontents %Inhaltsverzeichnis
+
+%\listoftables % Tabellenverzeichnis 
+
+
+%Haupdokument
+\mainmatter
+
+\include{chapters/introduction}
+%nur  beispielhaft zur visualisierung drinnen:
+%\include{chapters/inmemory}
+%nur  beispielhaft zur visualisierung drinnen:
+%\include{chapters/sap}
+
+\include{chapters/scm}
+
+%einbauen? nicht zu umfangreich?
+%\include{chapters/verlinkung}
+%einbauen? nicht zu umfangreich?
+%\include{chapters/synchronisation}
+
+%ab hier SCM:
+\include{chapters/identification}
+
+\include{chapters/buildmgmt}
+
+\include{chapters/releasemgmt}
+
+\include{chapters/versionsmgmt}
+
+\include{chapters/changemgmt}
+
+\include{chapters/fazit}
+
+%Ende / Verzeichnisse
+\appendix
+\renewcommand{\chaptermark}[1]{%
+\markboth{ #1}{}}
+
+\include{chapters/anhang}
+
+\backmatter
+
+\include{abkuerzungsverzeichnis}
+
+%Einbinden des Abbildungsverzeichnisses
+\listoffigures
+
+%Einbinden des Literaturverzeichnisses
+\bibliography{bibliography}
+
+
+\end {document}
+
+% Local Variables:
+% eval: (longlines-mode 1)
+% TeX-engine: default
+% End:

@@ -1,0 +1,254 @@
+%%
+%%Fuer Korrektur eigene Environment fuer Kommentare,etc.
+\newenvironment{altertext}{\begin{quote}\small}{\end{quote}}
+\usepackage{tikz,ed,fixme} 
+\usepackage[framemethod=tikz]{mdframed} \newcommand{\notab}[1]{\textbf{\sffamily\textcolor{blue}{ [[#1]] }}} \mdfdefinestyle{leftbar}{linecolor=blue,linewidth=3pt,topline=false,
+rightline=false,bottomline=false}  \mdfdefinestyle{rahmen}{roundcorner=10pt,leftmargin=1, rightmargin=1, linecolor=blue,outerlinewidth=1, innerleftmargin=15, innertopmargin=15,innerbottommargin=15,  skipabove=\topskip,skipbelow=\topskip} \newenvironment{nota}{\begin{quote}\sffamily\hrule}   {\par\smallskip\hrule\end{quote}} 
+\newenvironment{VB}{\begin{mdframed}[style=leftbar]\noindent\sffamily\parindent0pt}
+{\end{mdframed}\noindent} \newenvironment{VB*}{\begin{quote}\color{blue}}{\end{quote}}  \newcommand{\Del}[2][]{\footnote{Entfernt: \textcolor{brown}{#2} --- #1}} 
+
+
+%%
+%&Anpassung Raender Dokument 
+\usepackage{geometry}
+%\geometry{a4paper, top=30mm, left=20mm, right=20mm, bottom=30mm,footskip=12mm}
+\geometry{a4paper, top=30mm, bottom=30mm,footskip=12mm}
+
+%%%Durchlaufende Nummerierung Fußnoten \footnote
+\usepackage{remreset}
+\makeatletter
+\@removefromreset{footnote}{chapter}
+\makeatother
+%Fussnote in Table sichtbar
+\usepackage{footnote}
+\makesavenoteenv{tabular}
+\makesavenoteenv{table}
+%%%
+
+%%
+%% Unterstützung für deutsche Sprache, Umlaute etc.
+%%
+\usepackage{ngerman}
+%\usepackage [ngerman] {babel}
+\usepackage [utf8] {inputenc}
+\usepackage{csquotes}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+
+%%Erzeugt für jedes Chapter eine neue Start-Seite
+%%mit Nummer des Kapitels in Grau
+%\usepackage{longtable}					%js
+%\usepackage[grey,helvetica]{quotchap}	%js
+
+%%Zeigt nur die verwendeten Abkuerzungen im Abkuerzungsverzeichnis
+\usepackage[printonlyused]{acronym}		%js
+
+
+%%
+%% Diverse Pakete
+%%
+\definecolor{dunkelrot}{rgb}{102,0,0}
+\usepackage{graphicx} 
+\usepackage{float}
+\usepackage{verbatim}
+\usepackage{fancyhdr}
+\usepackage{floatflt} 
+\usepackage{enumitem}
+\usepackage{mathrsfs,amssymb}
+\usepackage[intlimits] {empheq}
+\usepackage{theorem}
+\usepackage{wrapfig}
+\usepackage {marvosym}
+\usepackage {xcolor}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{scrhack}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{array, tabularx}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{ragged2e}
+\usepackage{multirow}
+\usepackage[left]{eurosym}	
+\usepackage[section]{placeins}			%js
+\usepackage{epigraph}					%js
+\setlength{\epigraphwidth}{0.4\textwidth}
+\usepackage{framed}
+
+%%
+%% Anpassung an Aussehen bei Click auf Links und Verlinkungen des Inhaltsverzeichnis
+\usepackage[hyphens]{url}
+
+\usepackage[colorlinks,pdfpagelabels,pdfstartview = FitH,bookmarksopen = true,bookmarksnumbered = true,linkcolor = black,plainpages = false,hypertexnames = false,citecolor = black, urlcolor=black] {hyperref}
+
+%%use the same style for url as in the document
+\urlstyle{same}
+%%
+
+%%
+% Anpassung der Ueberschriften
+\usepackage{titlesec}
+\titlespacing{\chapter}{0pt}{-6em}{6pt}
+\titlespacing{\section}{0pt}{6pt}{6pt}
+\usepackage{listingsutf8}
+
+%%
+% Anpassung Zeilenabstand
+\linespread {1.5}
+
+
+%%
+%% Verhindert überhängende Absatzteile
+%%
+\clubpenalty10000
+\widowpenalty10000
+\displaywidowpenalty=10000
+
+%%Anpassung schreiben auf 2. Seite nach chapter
+\renewcommand*\chapterheadstartvskip{\vspace*{-0.5cm}}
+%%
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1.4ex plus 0.35ex minus 0.3ex}
+
+% Schrift ----------------------------------------------------------------------
+\usepackage{lmodern} % bessere Fonts
+%\usepackage{relsize} % Schriftgröße relativ festlegen
+\usepackage{microtype} % AL: Verbessert den Schriftsatz
+
+%%
+%% Schriftarten
+%%
+\renewcommand{\sfdefault}{phv}
+\renewcommand{\ttdefault}{ppl}
+\renewcommand{\rmdefault}{phv}
+%\KOMAoptions{DIV=last}
+% change Font during text
+\newcommand{\changefont}[3]{
+\fontfamily{#1}\fontseries{#2}\fontshape{#3}\selectfont}
+
+
+%%
+%% Formatierung des Literaturverzeichnisses
+%%
+%\bibliographystyle{plaindin} % Nummern und alphabetisch sortiert
+\bibliographystyle{alphadin} % Buchstaben und sortiert
+%\bibliographystyle{abbrvdin} % Nummern und abgekürzte Namen
+%\bibliographystyle{unsrtdin} % Nummern und unsortiert
+
+% fortlaufendes Durchnummerieren der Fussnoten ----------------------------------
+\usepackage{chngcntr}
+
+%%
+%% Trennungsregeln
+%%
+\hyphenation{Sil-ben-trenn-ung}
+
+%%
+%% Seitenlayout
+%%
+\pagestyle{fancy}
+
+\setcounter{tocdepth}{3}	% tiefe des inhaltsverzeichnisses
+\setcounter{secnumdepth}{3} % Nummerierung der Überschriftentiefe festlegen
+
+
+%%
+%% Schönere Bullets bei Aufzählungen
+%%
+\renewcommand{\labelitemi}{$\bullet$}
+\renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemiii}{$\cdot$}
+
+%%
+%% Set Path fuer Bilder
+\graphicspath{{img/}}
+
+%js definition-umgebung setzen!
+\newtheorem{definition}{Definition}
+% js end definition
+
+%%
+%%Quellcode Formatierungen Java
+%%
+\definecolor{javared}{rgb}{0.6,0,0} % for strings
+
+\lstdefinestyle{javacode}{
+	language=Java, 
+   	basicstyle=\footnotesize, 
+    	frame=lines,
+   	keywordstyle=\bf{\color{blue!80!black!100}}, 
+   	identifierstyle=, 
+   	xleftmargin=15pt,
+    	framexleftmargin=15pt,
+    	tabsize=3,
+   	frame=shadowbox,
+    	rulesepcolor=\color{gray}, 
+   	commentstyle=\color{green!50!black!100}, 
+   	numberblanklines=false,
+   	stringstyle=\color{javared}, 
+   	breaklines=true, 
+   	numbers=left, 
+   	numberstyle=\tiny,
+     numbersep=5pt,
+    	breaklines=true,
+    	showstringspaces=false,
+}
+%%
+%%Quellcode Formatierung Android XML
+\definecolor{darkgreen}{rgb}{0,0.5,0}
+\lstdefinestyle{xmlcode}{
+    language=xml,
+    sensitive=true,
+    tabsize=3,
+    frame=lines,
+    frame=shadowbox,
+    rulesepcolor=\color{gray},
+    xleftmargin=20pt,
+    framexleftmargin=15pt,
+    keywordstyle=\color{magenta}\bf,
+    commentstyle=\color{darkgreen},
+    stringstyle=\color{javared},
+    numbers=left,
+    numberstyle=\tiny,
+    numbersep=5pt,
+    breaklines=true,
+    showstringspaces=false,
+    basicstyle=\footnotesize,
+    morecomment=[s]{<?}{?>},
+    morecomment=[s]{<!-}{-->},
+    alsoletter={<>=-}, 
+    moredelim=[s][\color{black}]{>}{<},
+    tag=[s],
+    identifierstyle=\bf{\color{blue!80!black!100}},
+    alsodigit={:},
+}
+
+%%
+%%Quellcode Formatierung HTML
+\lstdefinestyle{html5}{
+    language=html,
+    sensitive=true,
+    tabsize=3,
+    frame=lines,
+    frame=shadowbox,
+    rulesepcolor=\color{gray},
+    xleftmargin=20pt,
+    framexleftmargin=15pt,
+    keywordstyle=\bf{\color{blue!80!black!100}},
+    commentstyle=\color{darkgreen},
+    stringstyle=\color{javared},
+    numbers=left,
+    numberstyle=\tiny,
+    numbersep=5pt,
+    breaklines=true,
+    showstringspaces=false,
+    basicstyle=\footnotesize,
+    morecomment=[s]{<!-}{-->},
+    alsoletter={<>=-}, 
+    moredelim=[s][\color{black}]{>}{<},
+    tag=[s],
+    emphstyle={\color{magenta}},
+    identifierstyle=\bf{\color{blue!80!black!100}}
+}
+
