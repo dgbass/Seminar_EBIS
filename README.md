@@ -8,5 +8,4 @@ EBIS Seminar-CM/DMS in distributed software projects
 <p>
 Wenn ihr Anregungen, Verbesserungsvorschläge, Rechtschreibfehler, etc. habt, schreibt mir eine Mail.
 <p>
-<br/>
 <p> Das aktuelle File könnt ihr euch unter seminar_ebis.pdf anschauen </p>
