@@ -4,11 +4,16 @@
 \BOOKMARK [0][]{chapter.6}{2 Software Configuration Management \(SCM\)}{}% 4
 \BOOKMARK [0][]{chapter.7}{3 Konfigurationsidentifikation}{}% 5
 \BOOKMARK [0][]{chapter.8}{4 Build Management/ System Building}{}% 6
-\BOOKMARK [1][]{subsection.9}{4.0.1 Die Kosten eines fehlgeschlagenen Builds}{chapter.8}% 7
-\BOOKMARK [0][]{chapter.10}{5 Release Management}{}% 8
-\BOOKMARK [0][]{chapter.11}{6 Versions-Management}{}% 9
-\BOOKMARK [0][]{chapter.12}{7 Change Management}{}% 10
-\BOOKMARK [0][]{chapter.13}{8 Fazit}{}% 11
-\BOOKMARK [0][]{appendix*.14}{Abk\374rzungsverzeichnis}{}% 12
-\BOOKMARK [0][]{appendix*.15}{Abbildungsverzeichnis}{}% 13
-\BOOKMARK [0][]{appendix*.16}{Literaturverzeichnis}{}% 14
+\BOOKMARK [1][]{subsection.27}{4.0.1 Continous Build}{chapter.8}% 7
+\BOOKMARK [2][]{subsection.29}{4.0.2 Die Kosten eines fehlgeschlagenen Builds}{subsection.27}% 8
+\BOOKMARK [2][]{subsection.30}{4.0.3 Effektiver Build}{subsection.27}% 9
+\BOOKMARK [0][]{chapter.31}{5 Versions-Management}{}% 10
+\BOOKMARK [0][]{chapter.32}{6 Release Management}{}% 11
+\BOOKMARK [1][]{subsection.33}{6.0.4 Aufgaben und funktionale Einordnung}{chapter.32}% 12
+\BOOKMARK [2][]{subsection.34}{6.0.5 Einteilung von Releases}{subsection.33}% 13
+\BOOKMARK [2][]{subsection.35}{6.0.6 Teilprozesse}{subsection.33}% 14
+\BOOKMARK [0][]{chapter.37}{7 Change Management}{}% 15
+\BOOKMARK [0][]{chapter.38}{8 Fazit}{}% 16
+\BOOKMARK [0][]{appendix*.39}{Abk\374rzungsverzeichnis}{}% 17
+\BOOKMARK [0][]{appendix*.40}{Abbildungsverzeichnis}{}% 18
+\BOOKMARK [0][]{appendix*.41}{Literaturverzeichnis}{}% 19
