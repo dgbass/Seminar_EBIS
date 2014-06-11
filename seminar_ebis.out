@@ -3,17 +3,25 @@
 \BOOKMARK [1][]{section.5}{1.2 Gliederung}{chapter.3}% 3
 \BOOKMARK [0][]{chapter.6}{2 Software Configuration Management \(SCM\)}{}% 4
 \BOOKMARK [0][]{chapter.7}{3 Konfigurationsidentifikation}{}% 5
-\BOOKMARK [0][]{chapter.8}{4 Build Management/ System Building}{}% 6
-\BOOKMARK [1][]{subsection.27}{4.0.1 Continous Build}{chapter.8}% 7
-\BOOKMARK [2][]{subsection.29}{4.0.2 Die Kosten eines fehlgeschlagenen Builds}{subsection.27}% 8
-\BOOKMARK [2][]{subsection.30}{4.0.3 Effektiver Build}{subsection.27}% 9
-\BOOKMARK [0][]{chapter.31}{5 Versions-Management}{}% 10
-\BOOKMARK [0][]{chapter.32}{6 Release Management}{}% 11
-\BOOKMARK [1][]{subsection.33}{6.0.4 Aufgaben und funktionale Einordnung}{chapter.32}% 12
-\BOOKMARK [2][]{subsection.34}{6.0.5 Einteilung von Releases}{subsection.33}% 13
-\BOOKMARK [2][]{subsection.35}{6.0.6 Teilprozesse}{subsection.33}% 14
-\BOOKMARK [0][]{chapter.37}{7 Change Management}{}% 15
-\BOOKMARK [0][]{chapter.38}{8 Fazit}{}% 16
-\BOOKMARK [0][]{appendix*.39}{Abk\374rzungsverzeichnis}{}% 17
-\BOOKMARK [0][]{appendix*.40}{Abbildungsverzeichnis}{}% 18
-\BOOKMARK [0][]{appendix*.41}{Literaturverzeichnis}{}% 19
+\BOOKMARK [1][]{subsection.8}{3.0.1 Konfigurationsidentifikation / Requirements}{chapter.7}% 6
+\BOOKMARK [2][]{subsection.9}{3.0.2 Beteiligte Personen}{subsection.8}% 7
+\BOOKMARK [2][]{subsection.10}{3.0.3 Requirements Engineering / Requirements Management}{subsection.8}% 8
+\BOOKMARK [2][]{subsection.11}{3.0.4 Funktionale Anforderungen}{subsection.8}% 9
+\BOOKMARK [2][]{subsection.12}{3.0.5 Nicht-funktionale Anforderungen}{subsection.8}% 10
+\BOOKMARK [2][]{subsection.13}{3.0.6 Dokumentation \(Anforderungsspezifikation\)}{subsection.8}% 11
+\BOOKMARK [2][]{subsection.14}{3.0.7 Lastenheft}{subsection.8}% 12
+\BOOKMARK [2][]{subsection.15}{3.0.8 Pflichtenheft}{subsection.8}% 13
+\BOOKMARK [0][]{chapter.16}{4 Build Management/ System Building}{}% 14
+\BOOKMARK [1][]{subsection.35}{4.0.9 Continous Build}{chapter.16}% 15
+\BOOKMARK [2][]{subsection.37}{4.0.10 Die Kosten eines fehlgeschlagenen Builds}{subsection.35}% 16
+\BOOKMARK [2][]{subsection.38}{4.0.11 Effektiver Build}{subsection.35}% 17
+\BOOKMARK [0][]{chapter.39}{5 Versions-Management}{}% 18
+\BOOKMARK [0][]{chapter.40}{6 Release Management}{}% 19
+\BOOKMARK [1][]{subsection.41}{6.0.12 Aufgaben und funktionale Einordnung}{chapter.40}% 20
+\BOOKMARK [2][]{subsection.42}{6.0.13 Einteilung von Releases}{subsection.41}% 21
+\BOOKMARK [2][]{subsection.43}{6.0.14 Teilprozesse}{subsection.41}% 22
+\BOOKMARK [0][]{chapter.45}{7 Change Management}{}% 23
+\BOOKMARK [0][]{chapter.46}{8 Fazit}{}% 24
+\BOOKMARK [0][]{appendix*.47}{Abk\374rzungsverzeichnis}{}% 25
+\BOOKMARK [0][]{appendix*.48}{Abbildungsverzeichnis}{}% 26
+\BOOKMARK [0][]{appendix*.49}{Literaturverzeichnis}{}% 27

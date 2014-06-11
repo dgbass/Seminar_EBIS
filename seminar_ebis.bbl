@@ -16,6 +16,33 @@
   \url{http://www.coverity.com/library/pdf/Coverity-Software-Build-Analysis.pdf}.
 \newblock \,Version:\,2009, Abruf: 2014-06-09
 
+\bibitem[Deu14]{brd-lastenheft}
+\textsc{Deutschland}, Bundesrepublik:
+\newblock \emph{Das V-Modell XT:Anforderungen (Lastenheft)}.
+\newblock
+  \url{http://ftp.uni-kl.de/pub/v-modell-xt/Release-1.2/Dokumentation/html/index.html?refer=http://ftp.uni-kl.de/pub/v-modell-xt/Release-1.2/Dokumentation/html/14794f684e963e8.html}.
+\newblock \,Version:\,2014, Abruf: 2014-06-02
+
+\bibitem[Fe07a]{fraunhofer-anforderung}
+\textsc{Forschung~e.V.}, Fraunhofer~G.~a.:
+\newblock \emph{re-wissen.de: Anforderungsspezifikation}.
+\newblock \url{http://www.re-wissen.de/Wissen/Anforderungsspezifikation/}.
+\newblock \,Version:\,2007, Abruf: 2014-06-10
+
+\bibitem[Fe07b]{fraunhofer}
+\textsc{Forschung~e.V.}, Fraunhofer~G.~a.:
+\newblock \emph{re-wissen.de: Funktionale Anforderungen erheben}.
+\newblock
+  \url{http://www.re-wissen.de/Wissen/Anforderungserhebung/Praktiken/Funktionale_Anforderungen_erheben.html}.
+\newblock \,Version:\,2007, Abruf: 2014-06-10
+
+\bibitem[How12]{rm-howard}
+\textsc{Howard}, D:
+\newblock \emph{IT Release Management}.
+\newblock 1.Auflage.
+\newblock CRC Press, 2012. --
+\newblock ISBN 978--1--4665--0914--6
+
 \bibitem[Kas07]{build-seminar}
 \textsc{Kasparick}, M.:
 \newblock \emph{Software-Konfigurationsmanagement}.
@@ -32,11 +59,50 @@
   \url{http://www.softec.wiwi.uni-due.de/studium-lehre/lehrveranstaltungen/sommersemester-11/pks2-3274/download/PKSII_Vorl7_Buildmanagement_v1.1.pdf/}.
 \newblock \,Version:\,2011, Abruf: 2014-06-09
 
+\bibitem[Pil10]{rm-pilorget}
+\textsc{Pilorget}, L.:
+\newblock \emph{MIIP - Modell zur Implementierung der IT-Prozesse}.
+\newblock 1. Auflage.
+\newblock Viehweg + Teubner Verlag| Springer Fachmedien Wiesbaden GmbH, 2010.
+  --
+\newblock ISBN 978--3--8348--1308--4
+
+\bibitem[PP14]{partsch-re}
+\textsc{Prof.~Partsch}, H.:
+\newblock \emph{Vorlesungsskript Requirements Engineering}.
+\newblock Universität Ulm, Institut für Programmiermethodik und Compilerbau,
+  2014
+
 \bibitem[Som00]{bib:se}
 \textsc{Sommerville}, I.:
 \newblock \emph{Software Engineering}.
 \newblock 6.th edition.
 \newblock Addison Wesley, 2000. --
 \newblock ISBN 9780201398151
+
+\bibitem[SS08]{rm-schiefer-erik}
+\textsc{Schiefer}, H. ; \textsc{Schitterer}, E.:
+\newblock \emph{Prozesse optimieren mittels ITIL: Abläufe mittels
+  Prozesslandkarte gestalten - Compliance erreichen und Best Practices nutzen
+  mit ISO 20000, BS 15000 \& ISO 9000}.
+\newblock 2. überarbeitete Auflage.
+\newblock Viehweg + Teubner Verlag | GWV Fachverlage GmbH Wiesbaden, 2008. --
+\newblock ISBN 978--3--8348--0503--4
+
+\bibitem[Wik13a]{wiki-it}
+\textsc{Wiki.de}:
+\newblock \emph{Release Management}.
+\newblock Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Germany
+  License.
+\newblock \url{http://wiki.de.it-processmaps.com/index.php/Release_Management}.
+\newblock \,Version:\,2013, Abruf: 2014-06-10
+
+\bibitem[Wik13b]{wiki-it-service}
+\textsc{Wiki.de}:
+\newblock \emph{Service Support}.
+\newblock Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Germany
+  License.
+\newblock \url{http://wiki.de.it-processmaps.com/index.php/Service_Support}.
+\newblock \,Version:\,2013, Abruf: 2014-06-10
 
 \end{thebibliography}

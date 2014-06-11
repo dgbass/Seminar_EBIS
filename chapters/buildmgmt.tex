@@ -29,7 +29,7 @@ Schnell stellt sich jedoch die Frage wie oft denn ein solcher Build Prozess durc
 \\
 Hierfür gibt es keine richtige und falsche Antwort. Die sollte je nach Komplexität des Softwareprojekt individuell entschieden werden. Denn ein solcher Build Prozess kann je nach Komplexität der zu erstellenden Software sehr rechenintensiv und lange sein. 
 \\
-Zum einen wird ein Build aufwendiger je weniger häufig dieser durchgeführt wird da die Fehlerwahrscheinlichkeit steigt und die Einzelkomponenten der Software auseinander laufen können.
+Zum einen wird ein Build aufwendiger, je seltener dieser durchgeführt wird, da die Fehlerwahrscheinlichkeit steigt und die Einzelkomponenten der Software auseinander laufen können.
 \\
 Anderseits wiederum ist das ein Nachteil wenn man den Build zu oft durchführt, da bei großen Software Projekten viele Ressourcen benutzt werden, die der Build zu berücksichtigen hat und somit immer rechenintensiver wird.
 \\
@@ -53,7 +53,7 @@ Man unterscheidet hierbei bei den Fehlerentstehung zwischen einem \textit{Loud f
 Der Loud failure ist ist der Zustand, wenn der Kompiler eine Datei nicht übersetzt, oder das Linking nicht korrekt ist und den Build zum Abbruch bringt.
 Der Silent failure ist vermutlich ein schwer zu findenden Fehler, denn der Build war hier erfolgreich, aber der gewünschte Output ist nicht korrekt, weil \acs{z. B.} ein geänderter Code nicht re-kompiliert oder eine alte Bibliothek verwendet wurde.
 \\
-Der dritte Fehler, der Intentional failure, der vermutlich am  schwersten zu finden ist,entsteht, wenn der Quellcode Backdoors, \acs{etc.} enthält. \cite{software-analysis}
+Der dritte Fehler, der Intentional failure, der vermutlich am  schwersten zu finden ist, entsteht, wenn der Quellcode Backdoors, \acs{etc.} enthält. \cite{software-analysis}
 
 \subsection{Effektiver Build}
 Wie kann man diesen Build Prozess denn nun verbessern, wenn oft etwas schief geht oder der Build Prozess sehr lange dauert?
