@@ -21,7 +21,7 @@
 \contentsline {section}{\numberline {6.3}Teilprozesse}{14}{section.42}
 \contentsline {chapter}{\numberline {7}Change Management}{16}{chapter.44}
 \contentsline {section}{\numberline {7.1}Der Change Management Prozess}{16}{section.45}
-\contentsline {chapter}{\numberline {8}Fazit}{22}{chapter.46}
-\contentsline {chapter}{Abk\IeC {\"u}rzungsverzeichnis}{23}{appendix*.47}
-\contentsline {chapter}{Abbildungsverzeichnis}{24}{appendix*.48}
-\contentsline {chapter}{Literaturverzeichnis}{25}{appendix*.49}
+\contentsline {chapter}{\numberline {8}Fazit}{21}{chapter.46}
+\contentsline {chapter}{Abk\IeC {\"u}rzungsverzeichnis}{22}{appendix*.47}
+\contentsline {chapter}{Abbildungsverzeichnis}{23}{appendix*.48}
+\contentsline {chapter}{Literaturverzeichnis}{24}{appendix*.49}

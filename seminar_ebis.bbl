@@ -43,12 +43,33 @@
 \newblock CRC Press, 2012. --
 \newblock ISBN 978--1--4665--0914--6
 
+\bibitem[ISM13]{cm-munich}
+\textsc{IT-Service~Management}, Munich~I.:
+\newblock \emph{Change Management}.
+\newblock
+  \url{http://www.mitsm.de/itil-wiki/prozess-beschreibungen-deutsch/change-management}.
+\newblock \,Version:\,2013, Abruf: 2014-06-04
+
 \bibitem[Kas07]{build-seminar}
 \textsc{Kasparick}, M.:
 \newblock \emph{Software-Konfigurationsmanagement}.
 \newblock
   \url{https://swt.cs.tu-berlin.de/lehre/sepr/ws0708/referate/SCM_Ausarbeitung.pdf}.
 \newblock \,Version:\,2007, Abruf: 2014-06-09
+
+\bibitem[MLS13]{cm-stolpersteine}
+\textsc{Meister}, F. ; \textsc{Lorenz}, K.  ; \textsc{Schaarschmidt}, G.:
+\newblock \emph{Zehn Stolpersteine im Change Management}.
+\newblock
+  \url{http://www.computerwoche.de/a/zehn-stolpersteine-im-change-management,2532992}.
+\newblock \,Version:\,2013, Abruf: 2014-06-05
+
+\bibitem[OUO14]{cm-oldenburg}
+\textsc{Ossietzky Universität~Oldenburg}, Carl von:
+\newblock \emph{Change Management}.
+\newblock
+  \url{http://www.uni-oldenburg.de/itdienste/ueber-uns/it-service-management/change-management/}.
+\newblock \,Version:\,2014, Abruf: 2014-06-04
 
 \bibitem[PDEBD11]{build-continuous}
 \textsc{Prof. Dr.~Eicker}, S ; \textsc{B.Sc.~Diermann}, A.:
@@ -89,7 +110,20 @@
 \newblock Viehweg + Teubner Verlag | GWV Fachverlage GmbH Wiesbaden, 2008. --
 \newblock ISBN 978--3--8348--0503--4
 
-\bibitem[Wik13a]{wiki-it}
+\bibitem[Wi10]{cm-bestpractices}
+\textsc{Wiki-itil.de}:
+\newblock \emph{Prozess Change Management}.
+\newblock \url{http://www.wiki-itil.de/Prozess_Change_Management}.
+\newblock \,Version:\,2010, Abruf: 2014-06-04
+
+\bibitem[Wik13a]{cm-itil}
+\textsc{Wiki.de}:
+\newblock \emph{Change Management ITIL V2}.
+\newblock
+  \url{http://wiki.de.it-processmaps.com/index.php/Change_Management_-_ITIL_V2}.
+\newblock \,Version:\,2013, Abruf: 2014-06-05
+
+\bibitem[Wik13b]{wiki-it}
 \textsc{Wiki.de}:
 \newblock \emph{Release Management}.
 \newblock Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Germany
@@ -97,7 +131,7 @@
 \newblock \url{http://wiki.de.it-processmaps.com/index.php/Release_Management}.
 \newblock \,Version:\,2013, Abruf: 2014-06-10
 
-\bibitem[Wik13b]{wiki-it-service}
+\bibitem[Wik13c]{wiki-it-service}
 \textsc{Wiki.de}:
 \newblock \emph{Service Support}.
 \newblock Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Germany
