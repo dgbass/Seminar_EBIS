@@ -3,25 +3,25 @@
 \contentsline {section}{\numberline {1.2}Gliederung}{1}{section.5}
 \contentsline {chapter}{\numberline {2}Software Configuration Management (\acs {SCM})}{2}{chapter.6}
 \contentsline {chapter}{\numberline {3}Konfigurationsidentifikation}{3}{chapter.7}
-\contentsline {subsection}{\numberline {3.0.1}Konfigurationsidentifikation / Requirements}{3}{subsection.8}
-\contentsline {subsection}{\numberline {3.0.2}Beteiligte Personen}{3}{subsection.9}
-\contentsline {subsection}{\numberline {3.0.3}Requirements Engineering / Requirements Management}{4}{subsection.10}
-\contentsline {subsection}{\numberline {3.0.4}Funktionale Anforderungen}{5}{subsection.11}
-\contentsline {subsection}{\numberline {3.0.5}Nicht-funktionale Anforderungen}{5}{subsection.12}
-\contentsline {subsection}{\numberline {3.0.6}Dokumentation (Anforderungsspezifikation)}{6}{subsection.13}
-\contentsline {subsection}{\numberline {3.0.7}Lastenheft}{7}{subsection.14}
-\contentsline {subsection}{\numberline {3.0.8}Pflichtenheft}{7}{subsection.15}
-\contentsline {chapter}{\numberline {4}Build Management/ System Building}{9}{chapter.16}
-\contentsline {subsection}{\numberline {4.0.9}Continous Build}{10}{subsection.35}
-\contentsline {subsection}{\numberline {4.0.10}Die Kosten eines fehlgeschlagenen Builds}{12}{subsection.37}
-\contentsline {subsection}{\numberline {4.0.11}Effektiver Build}{12}{subsection.38}
-\contentsline {chapter}{\numberline {5}Versions-Management}{13}{chapter.39}
-\contentsline {chapter}{\numberline {6}Release Management}{14}{chapter.40}
-\contentsline {subsection}{\numberline {6.0.12}Aufgaben und funktionale Einordnung}{14}{subsection.41}
-\contentsline {subsection}{\numberline {6.0.13}Einteilung von Releases}{14}{subsection.42}
-\contentsline {subsection}{\numberline {6.0.14}Teilprozesse}{15}{subsection.43}
-\contentsline {chapter}{\numberline {7}Change Management}{17}{chapter.45}
-\contentsline {chapter}{\numberline {8}Fazit}{18}{chapter.46}
-\contentsline {chapter}{Abk\IeC {\"u}rzungsverzeichnis}{19}{appendix*.47}
-\contentsline {chapter}{Abbildungsverzeichnis}{20}{appendix*.48}
-\contentsline {chapter}{Literaturverzeichnis}{21}{appendix*.49}
+\contentsline {section}{\numberline {3.1}Konfigurationsidentifikation / Requirements}{3}{section.8}
+\contentsline {section}{\numberline {3.2}Requirements Engineering / Requirements Management}{3}{section.9}
+\contentsline {section}{\numberline {3.3}Funktionale Anforderungen}{4}{section.10}
+\contentsline {section}{\numberline {3.4}Nicht-funktionale Anforderungen}{5}{section.11}
+\contentsline {section}{\numberline {3.5}Dokumentation (Anforderungsspezifikation)}{5}{section.12}
+\contentsline {section}{\numberline {3.6}Lastenheft}{6}{section.13}
+\contentsline {section}{\numberline {3.7}Pflichtenheft}{6}{section.14}
+\contentsline {chapter}{\numberline {4}Build Management/ System Building}{8}{chapter.15}
+\contentsline {section}{\numberline {4.1}Continous Build}{9}{section.34}
+\contentsline {section}{\numberline {4.2}Die Kosten eines fehlgeschlagenen Builds}{11}{section.36}
+\contentsline {section}{\numberline {4.3}Effektiver Build}{11}{section.37}
+\contentsline {chapter}{\numberline {5}Versions-Management}{12}{chapter.38}
+\contentsline {chapter}{\numberline {6}Release Management}{13}{chapter.39}
+\contentsline {section}{\numberline {6.1}Aufgaben und funktionale Einordnung}{13}{section.40}
+\contentsline {section}{\numberline {6.2}Einteilung von Releases}{13}{section.41}
+\contentsline {section}{\numberline {6.3}Teilprozesse}{14}{section.42}
+\contentsline {chapter}{\numberline {7}Change Management}{16}{chapter.44}
+\contentsline {section}{\numberline {7.1}Der Change Management Prozess}{16}{section.45}
+\contentsline {chapter}{\numberline {8}Fazit}{22}{chapter.46}
+\contentsline {chapter}{Abk\IeC {\"u}rzungsverzeichnis}{23}{appendix*.47}
+\contentsline {chapter}{Abbildungsverzeichnis}{24}{appendix*.48}
+\contentsline {chapter}{Literaturverzeichnis}{25}{appendix*.49}

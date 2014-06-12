@@ -1,18 +1,19 @@
 \chapter{Konfigurationsidentifikation}
-\subsection{Konfigurationsidentifikation / Requirements}
+\section{Konfigurationsidentifikation / Requirements}
 Am Anfang eines jeden Software-Projektes sollte die zielgerichtete Festsetzung von Anforderungen (engl.: Requirements) stehen. Auch wenn dieser Aspekt viel zu häufig bedeutend geringer behandelt wird als es eigentlich notwendig wäre, hat sich daraus inzwischen eine eigene wissenschaftliche Teildisziplin entwickelt. Betrachtet man große Projekte, die über einen langen Zeitraum entwickelt werden, ist eine Orientierung anhand der ursprünglichen Anforderungen von höchster Priorität, da sonst oftmals die Gefahr besteht, den eigentlichen Zweck der Software aus dem Fokus zu verlieren. Außerdem muss man passend auf Anpassungen in den Anforderungen reagieren können. Durch Arbeitsteilung und der daraus resultierenden Spezialisierung innerhalb von Projektgruppen, kann es schnell zu Verständnisproblemen und Kommunikationsschwierigkeiten kommen, die wiederum eine unpassende Problembehandlung nach sich ziehen können. Es ist somit zwingend erforderlich, gleich zu Anfang der Software-Entwicklung die entsprechenden Konfigurationsaspekte zu identifizieren und diese zwischen den beteiligten Personenkreisen zu synchronisieren, damit sich während der Arbeitsprozesse keine Eigenschaften aus einem Selbstzweck entwickeln, die den eigentlichen Vorgaben nicht dienlich sind.
+%
+%\section{Beteiligte Personen}
+%Es liegt auf der Hand, dass verteilte Softwareprojekte zumeist ein hohes Maß an Arbeitsteilung aufweisen. Dabei agieren die beteiligten Personen häufig auch räumlich voneinander getrennt. Ferner muss man hinsichtlich der Anforderungen außerdem noch zwischen verschiedenen Interessensgruppen differenzieren, welche im Regelfall auch unterschiedliche Sichtweisen und Erwartungen bezüglich des Projektes haben. Im Allgemeinen muss man zwischen Stakeholdern und der Projektumgebung, bzw. den Projektverantwortlichen unterscheiden. Wie bereits erwähnt ist die korrekte Handhabe von Anforderungen wichtig, um den ursprünglichen Projektzweck nicht zu verfehlen. Man sollte die beteiligten Personenkreise aber auch hinsichtlich der Rückverfolgbarkeit (traceability) von Anforderungen separat betrachten.
+%\\
+%\textbf{Stakeholder (Auftraggeber)}
+%\\
+%Als Stakeholder werden in diesem Kontext alle Interessensgruppen gesehen, welche die Kundensicht auf das Projekt repräsentieren. Sie stellen also vor allem Anforderungen aus der Benutzersicht auf, die weniger explizit und auf das Endergebnis gerichtet sind. Diese Anforderungen sind von höchster Relevanz und geben die Rahmenbedingungen für detailliertere Konfigurationsaspekte vor. 
+%\\
+%\textbf{Projektumgebung (Auftragnehmer)}
+%\\
+%In erster Linie sind sie für die Realisierung der gestellten Anforderungen zuständig und befassen sich mit der Umsetzung des kompletten Software-Projekts. Aber es ist naheliegend, dass sich während dieses Prozesses auch hieraus neue Anforderungen ergeben, ohne die das Projekt nicht möglich ist. Diese Anforderungen sind wesentlich näher an die eigentliche Softwareentwicklung angelehnt und entstehen oft viel später als die Konfigurationsaspekte der Shareholder.
 
-\subsection{Beteiligte Personen}
-Es liegt auf der Hand, dass verteilte Softwareprojekte zumeist ein hohes Maß an Arbeitsteilung aufweisen. Dabei agieren die beteiligten Personen häufig auch räumlich voneinander getrennt. Ferner muss man hinsichtlich der Anforderungen außerdem noch zwischen verschiedenen Interessensgruppen differenzieren, welche im Regelfall auch unterschiedliche Sichtweisen und Erwartungen bezüglich des Projektes haben. Im Allgemeinen muss man zwischen Stakeholdern und der Projektumgebung, bzw. den Projektverantwortlichen unterscheiden. Wie bereits erwähnt ist die korrekte Handhabe von Anforderungen wichtig, um den ursprünglichen Projektzweck nicht zu verfehlen. Man sollte die beteiligten Personenkreise aber auch hinsichtlich der Rückverfolgbarkeit (traceability) von Anforderungen separat betrachten.
-\\
-\textbf{Stakeholder (Auftraggeber)}
-\\
-Als Stakeholder werden in diesem Kontext alle Interessensgruppen gesehen, welche die Kundensicht auf das Projekt repräsentieren. Sie stellen also vor allem Anforderungen aus der Benutzersicht auf, die weniger explizit und auf das Endergebnis gerichtet sind. Diese Anforderungen sind von höchster Relevanz und geben die Rahmenbedingungen für detailliertere Konfigurationsaspekte vor. 
-\\
-\textbf{Projektumgebung (Auftragnehmer)}
-\\
-In erster Linie sind sie für die Realisierung der gestellten Anforderungen zuständig und befassen sich mit der Umsetzung des kompletten Software-Projekts. Aber es ist naheliegend, dass sich während dieses Prozesses auch hieraus neue Anforderungen ergeben, ohne die das Projekt nicht möglich ist. Diese Anforderungen sind wesentlich näher an die eigentliche Softwareentwicklung angelehnt und entstehen oft viel später als die Konfigurationsaspekte der Shareholder.
-\subsection{Requirements Engineering / Requirements Management}
+\section{Requirements Engineering / Requirements Management}
 Wird hinsichtlich der Anforderungen bereits sauber gearbeitet, verringern sich Fehlerursachen und ein mögliches Scheitern des Software-Projekts erheblich. Wichtig ist hierbei vor allem zu verstehen, dass zunächst nur die Identifizierung und Handhabe von reinen Anforderungen relevant ist und noch keinerlei Bezug auf eine mögliche Umsetzung genommen werden sollte. Somit zeichnen sich gute Anforderungen durch einige Qualitätskriterien aus, die als grundlegende Voraussetzungen für ihre Verwertbarkeit angesehen werden können. 
 \\
 Qualitätskriterien einzelner Anforderungen:
@@ -32,7 +33,7 @@ Qualitätskriterien einzelner Anforderungen:
 
 \cite{partsch-re}
 
-\subsection{Funktionale Anforderungen}
+\section{Funktionale Anforderungen}
 Funktionale Anforderungen legen ausschließlich fest, was das System tun soll (funktional). Es wird jedoch nicht expliziert, wie es umzusetzen ist oder welche Eigenschaften damit verbunden sind. Typische funktionale Anforderungen sind:
 \begin{itemize}
 	\item Eingaben und deren Einschränkungen (Daten, Ereignisse, Stimuli, ...)
@@ -47,7 +48,7 @@ Funktionale Anforderungen legen ausschließlich fest, was das System tun soll (f
 
 \cite{partsch-re}
 
-\subsection{Nicht-funktionale Anforderungen}
+\section{Nicht-funktionale Anforderungen}
 Anders als funktionale Anforderungen, beschreiben die nicht-funktionalen Anforderungen, wie gut ein System etwas tun soll (qualitativ). Abhängig des zu entwickelnden Systems können diese Anforderungen von unterschiedlichster Art sein. In diesem Zusammenhang werden über den ISO Standard 9126 hauptsächlich folgende sogenannte Qualitätsattribute für nicht-funktionale Anforderungen beschrieben, die für die meisten Projekte zutreffen:
 
 \begin{itemize}
@@ -60,28 +61,28 @@ Anders als funktionale Anforderungen, beschreiben die nicht-funktionalen Anforde
 
 \cite{fraunhofer}
 
-\subsection{Dokumentation (Anforderungsspezifikation)}
+\section{Dokumentation (Anforderungsspezifikation)}
 Von entscheidender Relevanz für einen strukturierten und zielgerichteten Entwicklungsprozess ist eine angemessene Dokumentation der Anforderungen. Dadurch bleiben die wesentlichen Konfigurationsdetails im Blickfeld und es wird vermieden, dass sich Aspekte in die Systementwicklung einschleichen, die mit den ursprünglichen Anforderungen in keinem Zusammenhang stehen. 
 Es hat sich als förderlich erwiesen, eine separate Dokumentation der Anforderungen von Kunden und Entwicklern umzusetzen, damit die ursprünglichen Konfigurationsdetails nicht durch die Konzepte der technischen Umsetzung verfälscht werden und alle beteiligten Parteien über Dokumente verfügen, 
-die ihren fachlichen Konventionen und deren Rolle innerhalb des Projekts adäquat abbilden (vgl. Fraunhofer\_2 2007). Als Resultat entstehen 
+die ihren fachlichen Konventionen und deren Rolle innerhalb des Projekts adäquat abbilden. Als Resultat entstehen 
 verschiedene Anforderungsdokumente, die dann als Basis für die Entwicklung dienen und zumeist auch die Grundlage der Kommunikation zwischen Stakeholdern bilden. Die wichtigsten Anforderungsdokumente, das Lasten- und 
 Pflichtenheft, werden in den folgenden Kapiteln nochmals detailliert beschrieben. 
 Im weiteren Fortgang des Projekts werden die Anforderungen aus diesen Dokumenten dann oft über spezielle Anforderungsmanagement-Software verwaltet und umgesetzt. Dadurch lassen sich Interdependenzen zwischen verschiedenen Teilsystemen einfacher abbilden und zurückverfolgen und man hat eine einheitliche Datenbasis für alle Beteiligten. Ferner lassen sich hierdurch außerdem Änderungen an den Konfigurationen einfacher pflegen und in das komplette System einfügen, ohne Fehler zu provozieren, die durch die komplexen Zusammenhänge innerhalb der Anforderungen leicht entstehen können, wenn nachträgliche Anpassungen erfolgen.
 \cite{fraunhofer-anforderung}
 
-\subsection{Lastenheft}
+\section{Lastenheft}
 Das Lastenheft beschreibt den Soll-Zustand der zu entwickelnden Software und enthält alle ermittelten und an das System verbindlich gestellten Anforderungen. Auch hier unterscheidet man zwischen funktionalen und nicht-funktionalen Anforderungen, die auch als solche gekennzeichnet sind. 
 Es dient oft auch als Grundlage für Ausschreibungen bei der Projektvergabe und ist fester Vertragsbestandteil zwischen Auftraggeber und Auftragnehmer. Die darin enthaltenen Spezifikationen legen die Rahmenbedingungen bezüglich der Entwicklung beim Auftragnehmer fest und werden von diesem dann in das Pflichtenheft überführt. Auf Grundlage des Lastenhefts wird also die gesamte Entwicklung des geforderten Systems begründet 
 Analog zur Konfigurationsidentifikation enthält dieses Dokument noch keine Aspekte bezüglich der expliziten Entwicklung und Umsetzung des Software-Projekts, sondern lediglich Anforderungen an das spätere Enderzeugnis. 
 Das Lastenheft sollte möglichst so gestaltet sein, dass Veränderungen an den Spezifikationen nachträglich ergänzt und verändert werden können und eine Rückverfolgung (traceability) dieser Prozesse möglich ist, denn zumeist wird es vor Projektbeginn und auch während der Entwicklung an Veränderungen in den Anforderungen angepasst. Der Grund hierfür ist einerseits die Synchronisation der Anforderungen zwischen Stakeholdern und Auftragnehmern vor Projektbeginn und andererseits die Berücksichtigung von Aspekten, die erst in der tatsächlichen Entwicklungsphase auftreten.
 \cite{brd-lastenheft}
 
-\subsection{Pflichtenheft}
+\section{Pflichtenheft}
 Das Pendant zum Lastenheft stellt das Pflichtenheft dar. 
 In diesem Dokument werden die Gesamtspezifikationen des Projekts seitens des Auftragnehmers konkretisiert und hinsichtlich der tatsächlichen technischen Umsetzung festgelegt. Anhand der Anforderungen des Lastenhefts wird in diesem Rahmen eine erste Grobarchitektur des Systems entwickelt und geeignet beschrieben. Ebenfalls werden neben der Entwicklung des eigentlichen Systems auch zu entwickelnde 
 Untersysteme identifiziert und den jeweiligen Anforderungen zugeordnet, was auch eine erste Arbeitsteilung zwischen den Entwicklern nach sich zieht. Darüber hinaus werden auch vertragliche Aspekte einbezogen, die den Lieferumfang des fertigen Gesamtsystems und die damit verbundenen Abnahmekriterien umfassen. Um sicher zu stellen, dass letztlich alle Anforderungen im Pflichtenheft berücksichtigt und für eine konkrete Umsetzung eingeplant sind
 , wird eine Anforderungsverfolgung, sowohl bezüglich des Lastenhefts als auch in Richtung des Systems und den entsprechenden Untersystemen durchgeführt. Die Ausarbeitung des Pflichtenhefts erfolgt innerhalb der Projektumgebung beim Auftragnehmer zwischen den Experten, die für die spätere Erstellung der Systemkomponenten (evtl. auch Untersysteme) zuständig sind
-, sowie den Projektverantwortlichen, die ein Hauptaugenmerk auf den Gesamtentwurf des Systems haben und diesbezüglich auch in engem Kontakt mit dem Auftraggeber stehen. Dieser wiederum prüft, ob die Gesamtspezifikationen des Pflichtenhefts seinen Vorgaben entsprechen (vgl. BRD 2004).Beide Dokumente entstehen somit in sehr 
+, sowie den Projektverantwortlichen, die ein Hauptaugenmerk auf den Gesamtentwurf des Systems haben und diesbezüglich auch in engem Kontakt mit dem Auftraggeber stehen. Dieser wiederum prüft, ob die Gesamtspezifikationen des Pflichtenhefts seinen Vorgaben entsprechen.Beide Dokumente entstehen somit in sehr 
 enger Synchronisation zwischen allen Beteiligten des Projekts und unterliegen während des Entwicklungsprozesses auch dem Anpassungsprozess von Anforderungen und Umsetzungsentwürfen, was eine Veränderlichkeit und Nachverfolgbarkeit beider Dokumente voraussetzt.
 
 \cite{brd-lastenheft}

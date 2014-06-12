@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.25)  12 JUN 2014 00:40
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.25)  12 JUN 2014 11:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2029,20 +2029,16 @@ Kapitel 2.
  (./chapters/identification.tex
 Kapitel 3.
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 2.
+Underfull \hbox (badness 10000) in paragraph at lines 17--22
+
+ []
 
 [3
 
 
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 16--21
-
- []
-
-[4] [5] [6] [7]) [8]
+] [4] [5] [6]) [7]
 \openout2 = `chapters/buildmgmt.aux'.
 
  (./chapters/buildmgmt.tex
@@ -2060,7 +2056,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 5.
- [9
+ [8
 
 
 
@@ -2068,24 +2064,19 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ])
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 13.
-
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 27.
-
-[10] <img/continuousintegration.png, id=244, 664.6431pt x 512.1534pt>
+ [9] <img/continuousintegration.png, id=239, 664.6431pt x 512.1534pt>
 File: img/continuousintegration.png Graphic file (type png)
 
 <use img/continuousintegration.png>
 Package pdftex.def Info: img/continuousintegration.png used on input line 44.
 (pdftex.def)             Requested size: 334.60422pt x 257.8344pt.
- [11 <./img/continuousintegration.png>])
-[12]
+ [10 <./img/continuousintegration.png>])
+[11]
 \openout2 = `chapters/versionsmgmt.aux'.
 
  (./chapters/versionsmgmt.tex
 Kapitel 5.
-) [13
+) [12
 
 
 
@@ -2095,38 +2086,39 @@ Kapitel 5.
 
  (./chapters/releasemgmt.tex
 Kapitel 6.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 2.
-
-<img/Teilprozesse.png, id=277, 456.2646pt x 90.5784pt>
+<img/Teilprozesse.png, id=273, 456.2646pt x 90.5784pt>
 File: img/Teilprozesse.png Graphic file (type png)
 
 <use img/Teilprozesse.png>
 Package pdftex.def Info: img/Teilprozesse.png used on input line 23.
 (pdftex.def)             Requested size: 418.25368pt x 83.03459pt.
- [14
+ [13
 
 
 
 
-]) [15 <./img/Teilprozesse.png>] [16]
+]) [14 <./img/Teilprozesse.png>] [15]
 \openout2 = `chapters/changemgmt.aux'.
 
 
 (./chapters/changemgmt.tex
 Kapitel 7.
-) [17
+[16
 
 
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 22--37
+
+ []
+
+[17] [18] [19] [20]) [21]
 \openout2 = `chapters/fazit.aux'.
 
  (./chapters/fazit.tex
 Kapitel 8.
-) [18
+) [22
 
 
 
@@ -2138,7 +2130,7 @@ Kapitel 8.
 No file chapters/anhang.tex.
 \openout2 = `abkuerzungsverzeichnis.aux'.
 
-(./abkuerzungsverzeichnis.tex) [19
+(./abkuerzungsverzeichnis.tex) [23
 
 
 
@@ -2155,7 +2147,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 97
 \openout6 = `seminar_ebis.lof'.
 
  (./seminar_ebis.bbl
-[20
+[24
 
 
 
@@ -2196,7 +2188,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--61
 mmersemester -[] 11 / pks2 -[]
  []
 
-[21
+[25
 
 
 ]
@@ -2221,7 +2213,7 @@ FiXme Summary: Number of notes: 0,
 (FiXme)        Total: 0.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
-[22]
+[26]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
  (./seminar_ebis.aux (./titel.aux) (./chapters/introduction.aux)
 (./chapters/scm.aux) (./chapters/identification.aux) (./chapters/buildmgmt.aux)
@@ -2231,14 +2223,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `seminar_ebis.out' has not changed.
-(rerunfilecheck)             Checksum: 8A218EA839B3BCAFBE0B533C903CEF04;1931.
+(rerunfilecheck)             Checksum: 57837DC30D5AB9E2350E0289CB851E84;1834.
  ) 
 Here is how much of TeX's memory you used:
- 31948 strings out of 493610
- 545404 string characters out of 3142404
- 747439 words of memory out of 3000000
- 34211 multiletter control sequences out of 15000+200000
- 73357 words of font info for 198 fonts, out of 3000000 for 9000
+ 31958 strings out of 493610
+ 545338 string characters out of 3142404
+ 747434 words of memory out of 3000000
+ 34205 multiletter control sequences out of 15000+200000
+ 73983 words of font info for 206 fonts, out of 3000000 for 9000
  832 hyphenation exceptions out of 8191
  70i,12n,102p,1341b,2057s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
@@ -2248,10 +2240,10 @@ st/fonts/type1/public/lm/lmsy9.pfb></usr/local/texlive/2011/texmf-dist/fonts/ty
 pe1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw
 /helvetic/uhvr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/helvet
 ic/uhvro8a.pfb>
-Output written on seminar_ebis.pdf (25 pages, 908073 bytes).
+Output written on seminar_ebis.pdf (29 pages, 920113 bytes).
 PDF statistics:
- 397 PDF objects out of 1000 (max. 8388607)
- 354 compressed objects within 4 object streams
- 92 named destinations out of 1000 (max. 500000)
+ 413 PDF objects out of 1000 (max. 8388607)
+ 366 compressed objects within 4 object streams
+ 96 named destinations out of 1000 (max. 500000)
  31476 words of extra memory for PDF output out of 35830 (max. 10000000)
 

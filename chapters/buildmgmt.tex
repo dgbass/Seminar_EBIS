@@ -24,7 +24,7 @@ Doch auch an solche automatischen Tools gibt es eine Anforderungsliste.
 \item Mit welcher Kompilerversion und weiteren benötigten Software-Tools wird dieser Build-Prozess durchgeführt? 	
 \end{itemize}
 
-\subsection{Continous Build}
+\section{Continous Build}
 Schnell stellt sich jedoch die Frage wie oft denn ein solcher Build Prozess durchgeführt werden soll? Soll er nach jeder Änderung, jeder fertigen Teilkomponente durchgeführt werden, um die Funktionen zu testen, oder soll erst am Ende vom Projekt ein kompletter Durchlauf des Build-Prozesses durchlaufen?
 \\
 Hierfür gibt es keine richtige und falsche Antwort. Die sollte je nach Komplexität des Softwareprojekt individuell entschieden werden. Denn ein solcher Build Prozess kann je nach Komplexität der zu erstellenden Software sehr rechenintensiv und lange sein. 
@@ -46,7 +46,7 @@ Im der folgenden Abbildung \ref{fig:ci} sieht man die Abhängigkeiten, die in ei
 \label{fig:ci}
 \end{figure}
 
-\subsection{Die Kosten eines fehlgeschlagenen Builds}
+\section{Die Kosten eines fehlgeschlagenen Builds}
 Was passiert wenn der Build Prozess fehlschlägt, weil aus welchen Gründen auch immer die Abhängigkeiten nicht korrekt definiert wurden?
 \\
 Man unterscheidet hierbei bei den Fehlerentstehung zwischen einem \textit{Loud failure}, einem \textit{Silent failure} und einem \textit{Intentional failure}.
@@ -55,7 +55,7 @@ Der Silent failure ist vermutlich ein schwer zu findenden Fehler, denn der Build
 \\
 Der dritte Fehler, der Intentional failure, der vermutlich am  schwersten zu finden ist, entsteht, wenn der Quellcode Backdoors, \acs{etc.} enthält. \cite{software-analysis}
 
-\subsection{Effektiver Build}
+\section{Effektiver Build}
 Wie kann man diesen Build Prozess denn nun verbessern, wenn oft etwas schief geht oder der Build Prozess sehr lange dauert?
 \\
 Folgende simple Antworten sind hierbei zu finden, \cite{software-analysis}:
