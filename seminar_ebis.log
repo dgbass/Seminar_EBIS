@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.25)  12 JUN 2014 18:14
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.25)  14 JUN 2014 14:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1773,34 +1773,34 @@ Package hyperref Info: Option `colorlinks' set `false' on input line 44.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
  (./seminar_ebis.aux (./titel.aux) (./chapters/introduction.aux)
-(./chapters/scm.aux) (./chapters/identification.aux) (./chapters/buildmgmt.aux)
-(./chapters/versionsmgmt.aux) (./chapters/releasemgmt.aux)
-(./chapters/changemgmt.aux) (./chapters/fazit.aux) (./chapters/anhang.aux)
-(./abkuerzungsverzeichnis.aux))
+(./chapters/scm.aux) (./chapters/identification.aux)
+(./chapters/versionsmgmt.aux) (./chapters/buildmgmt.aux)
+(./chapters/releasemgmt.aux) (./chapters/changemgmt.aux) (./chapters/anhang.aux
+) (./abkuerzungsverzeichnis.aux))
 \openout1 = `seminar_ebis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 27.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 26.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 27.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
@@ -1874,7 +1874,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 26.
+LaTeX Info: Redefining \microtypecontext on input line 27.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1885,8 +1885,8 @@ Package microtype Info: No tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 26.
-Package hyperref Info: Link coloring OFF on input line 26.
+LaTeX Info: Redefining \selectfont on input line 27.
+Package hyperref Info: Link coloring OFF on input line 27.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -1896,20 +1896,20 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count343
 )
-LaTeX Info: Redefining \ref on input line 26.
-LaTeX Info: Redefining \pageref on input line 26.
-LaTeX Info: Redefining \nameref on input line 26.
+LaTeX Info: Redefining \ref on input line 27.
+LaTeX Info: Redefining \pageref on input line 27.
+LaTeX Info: Redefining \nameref on input line 27.
 
 (./seminar_ebis.out) (./seminar_ebis.out)
 \@outlinefile=\write4
 \openout4 = `seminar_ebis.out'.
 
 \c@lstlisting=\count344
-Package scrhack Info: undefining \float@addtolists on input line 26.
+Package scrhack Info: undefining \float@addtolists on input line 27.
 \openout2 = `titel.aux'.
 
  (./titel.tex
-<img/Unilogo.jpg, id=115, 2370.8575pt x 459.7175pt>
+<img/Unilogo.jpg, id=139, 2370.8575pt x 459.7175pt>
 File: img/Unilogo.jpg Graphic file (type jpg)
  <use img/Unilogo.jpg>
 Package pdftex.def Info: img/Unilogo.jpg used on input line 5.
@@ -1991,8 +1991,8 @@ Overfull \hbox (16.0849pt too wide) in paragraph at lines 30--39
 {/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/U
 nilogo.jpg>])
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 51.
-Package tocbasic Info: character protrusion at toc deactivated on input line 51
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 52.
+Package tocbasic Info: character protrusion at toc deactivated on input line 52
 .
  (./seminar_ebis.toc [2
 
@@ -2018,12 +2018,17 @@ Kapitel 1.
 
  (./chapters/scm.tex
 Kapitel 2.
-) [2
+[2
 
 
 
 
-]
+] [3])
+Underfull \hbox (badness 10000) in paragraph at lines 16--66
+
+ []
+
+[4]
 \openout2 = `chapters/identification.aux'.
 
  (./chapters/identification.tex
@@ -2033,16 +2038,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--22
 
  []
 
-[3
+[5
 
 
 
 
-] [4] [5] [6]) [7]
+] [6] [7] [8]) [9]
+\openout2 = `chapters/versionsmgmt.aux'.
+
+ (./chapters/versionsmgmt.tex
+Kapitel 4.
+<img/vcm1.png, id=268, 455.301pt x 85.2786pt>
+File: img/vcm1.png Graphic file (type png)
+ <use img/vcm1.png>
+Package pdftex.def Info: img/vcm1.png used on input line 18.
+(pdftex.def)             Requested size: 418.25368pt x 78.34273pt.
+ [10
+
+
+
+
+]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 27.
+ [11 <./img/vcm1.png>] <img/vcm2.png, id=294, 455.301pt x 94.4328pt>
+File: img/vcm2.png Graphic file (type png)
+ <use img/vcm2.png>
+Package pdftex.def Info: img/vcm2.png used on input line 34.
+(pdftex.def)             Requested size: 418.25368pt x 86.75241pt.
+
+<img/git.png, id=300, 376.7676pt x 167.1846pt>
+File: img/git.png Graphic file (type png)
+ <use img/git.png>
+Package pdftex.def Info: img/git.png used on input line 50.
+(pdftex.def)             Requested size: 376.42575pt x 167.03876pt.
+ [12 <./img/vcm2.png>]) [13 <./img/git.png>]
 \openout2 = `chapters/buildmgmt.aux'.
 
  (./chapters/buildmgmt.tex
-Kapitel 4.
+Kapitel 5.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 10.
 (./code/Makefile
@@ -2056,78 +2090,64 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 5.
- [8
+ [14
 
 
 
 
-])
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 13.
- [9] <img/continuousintegration.png, id=239, 664.6431pt x 512.1534pt>
+]) [15] <img/continuousintegration.png, id=353, 664.6431pt x 512.1534pt>
 File: img/continuousintegration.png Graphic file (type png)
 
 <use img/continuousintegration.png>
 Package pdftex.def Info: img/continuousintegration.png used on input line 44.
 (pdftex.def)             Requested size: 334.60422pt x 257.8344pt.
- [10 <./img/continuousintegration.png>])
-[11]
-\openout2 = `chapters/versionsmgmt.aux'.
-
- (./chapters/versionsmgmt.tex
-Kapitel 5.
-) [12
-
-
-
-
-]
+ [16 <./img/continuousintegration.png>])
+[17]
 \openout2 = `chapters/releasemgmt.aux'.
 
  (./chapters/releasemgmt.tex
 Kapitel 6.
-<img/Teilprozesse.png, id=273, 456.2646pt x 90.5784pt>
+<img/Teilprozesse.png, id=381, 456.2646pt x 90.5784pt>
 File: img/Teilprozesse.png Graphic file (type png)
 
 <use img/Teilprozesse.png>
 Package pdftex.def Info: img/Teilprozesse.png used on input line 23.
 (pdftex.def)             Requested size: 418.25368pt x 83.03459pt.
- [13
+ [18
 
 
 
 
-]) [14 <./img/Teilprozesse.png>] [15]
+]) [19 <./img/Teilprozesse.png>] [20]
 \openout2 = `chapters/changemgmt.aux'.
 
 
 (./chapters/changemgmt.tex
 Kapitel 7.
-[16
+[21
 
 
 
 
-] [17] [18] [19]) [20]
-\openout2 = `chapters/fazit.aux'.
+] [22] [23] [24])
+Underfull \hbox (badness 10000) in paragraph at lines 44--82
 
- (./chapters/fazit.tex
-Kapitel 8.
-) [21
+ []
 
-
-
-
-]
+[25]
 \openout2 = `chapters/anhang.aux'.
 
+ (./chapters/anhang.tex
+Anhang A.
+) [26
 
-No file chapters/anhang.tex.
+
+
+
+]
 \openout2 = `abkuerzungsverzeichnis.aux'.
 
-(./abkuerzungsverzeichnis.tex) [22
-
-
+ (./abkuerzungsverzeichnis.tex) [27
 
 
 
@@ -2135,90 +2155,134 @@ No file chapters/anhang.tex.
 
 
 ]
-Package tocbasic Info: character protrusion at lof deactivated on input line 97
+Package tocbasic Info: character protrusion at lof deactivated on input line 98
 .
  (./seminar_ebis.lof)
 \tf@lof=\write6
 \openout6 = `seminar_ebis.lof'.
 
- (./seminar_ebis.bbl
-[23
+
+(./seminar_ebis.bbl [28
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 20--25
+Underfull \hbox (badness 10000) in paragraph at lines 19--24
+\T1/phv/m/n/10.95 (+20) Downloads / DE / BSI / Publikationen / Studien / ITIL /
+ itil _ pdf . pdf ? _ _ blob =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--46
 \T1/phv/m/n/10.95 (+20) html / index . html ? refer = http : / / ftp . uni -[] 
 kl . de / pub / v -[] modell -[] xt / Release -[]
  []
 
 
-Underfull \hbox (badness 3690) in paragraph at lines 20--25
-\T1/phv/m/n/10.95 (+20) 1 . 2 / Dokumentation / html / 14794f684e963e8 . html$[
-].  Version:2014, Ab-
+Underfull \hbox (badness 3907) in paragraph at lines 48--53
+[]\T1/phv/m/sc/10.95 (+20) Dr. Knie-sel\T1/phv/m/n/10.95 (+20) , G.:  \T1/phv/m
+/sl/10.95 (+20) Ka-pi-tel 2 Soft-wa-re Con-fi-gu-ra-ti-on Ma-na-ge-
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 27--31
-\T1/phv/m/sl/10.95 (+20) zi-fi-ka-ti-on\T1/phv/m/n/10.95 (+20) .  []$http : / /
- www . re -[] wissen . de / Wissen / Anforderungsspezi^^\kation/$[].
+Underfull \hbox (badness 4492) in paragraph at lines 55--60
+[]\T1/phv/m/sc/10.95 (+20) Education\T1/phv/m/n/10.95 (+20) , Pear-son:  \T1/ph
+v/m/sl/10.95 (+20) What Is Soft-wa-re Con-fi-gu-ra-ti-on Ma-na-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--52
+Underfull \hbox (badness 5817) in paragraph at lines 55--60
+\T1/phv/m/sl/10.95 (+20) ge-ment ?  []$\T1/phv/m/n/10.95 (+20) http : / / www .
+ pearsonhighered . com / assets / hip / us / hip _ us _
+ []
+
+[29
+
+
+]
+Underfull \hbox (badness 2111) in paragraph at lines 75--79
+[]\T1/phv/m/sc/10.95 (+20) Gbt.ch\T1/phv/m/n/10.95 (+20) :  \T1/phv/m/sl/10.95 
+(+20) Kon-fi-gu-ra-ti-ons-man-ge-ment\T1/phv/m/n/10.95 (+20) .  []$http : / / w
+ww . gbt . ch / Lexikon / K /
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 81--88
+\T1/phv/m/sl/10.95 (+20) Engineering: Egeb-nis-se ei-ner Online-Umfrage\T1/phv/
+m/n/10.95 (+20) .  []$http : / / www . sigs . de /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--96
+\T1/phv/m/n/10.95 (+20) archiv . qm -[] hamburg / Archiv / 20120521 _ Kon^^\gur
+ationsmanagement . pdf$[].
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--103
+[]\T1/phv/m/sc/10.95 (+20) Hüttermann\T1/phv/m/n/10.95 (+20) , Mi-cha-el ; \T1/
+phv/m/sc/10.95 (+20) Bo-rosch\T1/phv/m/n/10.95 (+20) , Rein-hard:  \T1/phv/m/sl
+/10.95 (+20) Software-
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 98--103
+\T1/phv/m/sl/10.95 (+20) Konfigurationsmanagement: Mit agi-len Stra-te-gi-en Wa
+hr-schein-lich-
+ []
+
+
+Underfull \hbox (badness 7133) in paragraph at lines 112--117
 []\T1/phv/m/sc/10.95 (+20) IT-Service Ma-na-ge-ment\T1/phv/m/n/10.95 (+20) , Mu
 -nich I.:  \T1/phv/m/sl/10.95 (+20) Change Ma-na-ge-ment\T1/phv/m/n/10.95 (+20)
  .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--52
+Underfull \hbox (badness 10000) in paragraph at lines 112--117
 []$\T1/phv/m/n/10.95 (+20) http : / / www . mitsm . de / itil -[] wiki / prozes
 s -[] beschreibungen -[] deutsch / change -[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--59
+Underfull \hbox (badness 7151) in paragraph at lines 119--124
 []\T1/phv/m/sc/10.95 (+20) Kasparick\T1/phv/m/n/10.95 (+20) , M.:  \T1/phv/m/sl
 /10.95 (+20) Software-Konfigurationsmanagement\T1/phv/m/n/10.95 (+20) .  []$htt
 ps :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--59
+Underfull \hbox (badness 10000) in paragraph at lines 119--124
 \T1/phv/m/n/10.95 (+20) / / swt . cs . tu -[] berlin . de / lehre / sepr / ws07
 08 / referate / SCM _ Ausarbeitung . pdf$[].
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 68--73
+Underfull \hbox (badness 3158) in paragraph at lines 133--138
 []\T1/phv/m/sc/10.95 (+20) Ossietzky Uni-ver-si-tät Ol-den-burg\T1/phv/m/n/10.9
 5 (+20) , Carl von:  \T1/phv/m/sl/10.95 (+20) Change Ma-
  []
 
-[24
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 75--82
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 140--147
 \T1/phv/m/n/10.95 (+20) due . de / studium -[] lehre / lehrveranstaltungen / so
 mmersemester -[] 11 / pks2 -[]
  []
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 127--133
+Underfull \hbox (badness 1142) in paragraph at lines 199--205
 []\T1/phv/m/sc/10.95 (+20) Wiki.de\T1/phv/m/n/10.95 (+20) :  \T1/phv/m/sl/10.95
  (+20) Re-lea-se Ma-na-ge-ment\T1/phv/m/n/10.95 (+20) .  Crea-ti-ve Com-mons At
 tribution-
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 127--133
+Underfull \hbox (badness 1210) in paragraph at lines 199--205
 \T1/phv/m/n/10.95 (+20) NonCommercial-ShareAlike 3.0 Ger-ma-ny Li-cen-se.  []$h
 ttp : / / wiki . de . it -[]
  []
 
-[25])
+[31])
 
 FiXme Summary: Number of notes: 0,
 (FiXme)        Number of warnings: 0,
@@ -2226,38 +2290,38 @@ FiXme Summary: Number of notes: 0,
 (FiXme)        Number of fatal errors: 0,
 (FiXme)        Total: 0.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
-[26]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
+[32]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
  (./seminar_ebis.aux (./titel.aux) (./chapters/introduction.aux)
-(./chapters/scm.aux) (./chapters/identification.aux) (./chapters/buildmgmt.aux)
-(./chapters/versionsmgmt.aux) (./chapters/releasemgmt.aux)
-(./chapters/changemgmt.aux) (./chapters/fazit.aux) (./chapters/anhang.aux)
-(./abkuerzungsverzeichnis.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
+(./chapters/scm.aux) (./chapters/identification.aux)
+(./chapters/versionsmgmt.aux) (./chapters/buildmgmt.aux)
+(./chapters/releasemgmt.aux) (./chapters/changemgmt.aux) (./chapters/anhang.aux
+) (./abkuerzungsverzeichnis.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 104.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
 Package rerunfilecheck Info: File `seminar_ebis.out' has not changed.
-(rerunfilecheck)             Checksum: 57837DC30D5AB9E2350E0289CB851E84;1834.
+(rerunfilecheck)             Checksum: B26F1EB876B93FB9495D875291AEC9FD;2247.
  ) 
 Here is how much of TeX's memory you used:
- 31973 strings out of 493610
- 545563 string characters out of 3142404
- 747624 words of memory out of 3000000
- 34215 multiletter control sequences out of 15000+200000
- 73983 words of font info for 206 fonts, out of 3000000 for 9000
+ 32074 strings out of 493610
+ 546590 string characters out of 3142404
+ 747767 words of memory out of 3000000
+ 34267 multiletter control sequences out of 15000+200000
+ 75605 words of font info for 222 fonts, out of 3000000 for 9000
  832 hyphenation exceptions out of 8191
- 70i,12n,102p,1341b,2057s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
-exlive/2011/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/201
+ 70i,12n,102p,2436b,2057s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
+cal/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/201
 1/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2011/texmf-di
 st/fonts/type1/public/lm/lmsy9.pfb></usr/local/texlive/2011/texmf-dist/fonts/ty
 pe1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw
 /helvetic/uhvr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/helvet
 ic/uhvro8a.pfb>
-Output written on seminar_ebis.pdf (29 pages, 920560 bytes).
+Output written on seminar_ebis.pdf (35 pages, 1077725 bytes).
 PDF statistics:
- 434 PDF objects out of 1000 (max. 8388607)
- 387 compressed objects within 4 object streams
- 101 named destinations out of 1000 (max. 500000)
- 31476 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 582 PDF objects out of 1000 (max. 8388607)
+ 518 compressed objects within 6 object streams
+ 130 named destinations out of 1000 (max. 500000)
+ 31539 words of extra memory for PDF output out of 35830 (max. 10000000)
 

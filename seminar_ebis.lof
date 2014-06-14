@@ -2,10 +2,13 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Continuous Build Prozess eines Softwareprojekts nach \cite {build-continuous}\relax }}{10}{figure.caption.35}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces SCCS nach \cite {cm_vc}, S. 43\relax }}{11}{figure.caption.21}
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces RCS nach \cite {cm_vc}, S.45\relax }}{12}{figure.caption.22}
+\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Git nach \cite {git_scm}, S.5\relax }}{13}{figure.caption.24}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Continuous Build Prozess eines Softwareprojekts nach \cite {build-continuous}\relax }}{16}{figure.caption.45}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Teilprozesse des Release Management nach ITIL \cite {wiki-it}\relax }}{14}{figure.caption.43}
+\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Teilprozesse des Release Management nach ITIL \cite {wiki-it}\relax }}{19}{figure.caption.52}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

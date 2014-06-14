@@ -2,26 +2,32 @@
 \BOOKMARK [1][]{section.4}{1.1 Motivation}{chapter.3}% 2
 \BOOKMARK [1][]{section.5}{1.2 Gliederung}{chapter.3}% 3
 \BOOKMARK [0][]{chapter.6}{2 Software Configuration Management \(SCM\)}{}% 4
-\BOOKMARK [0][]{chapter.7}{3 Konfigurationsidentifikation}{}% 5
-\BOOKMARK [1][]{section.8}{3.1 Konfigurationsidentifikation / Requirements}{chapter.7}% 6
-\BOOKMARK [1][]{section.9}{3.2 Requirements Engineering / Requirements Management}{chapter.7}% 7
-\BOOKMARK [1][]{section.10}{3.3 Funktionale Anforderungen}{chapter.7}% 8
-\BOOKMARK [1][]{section.11}{3.4 Nicht-funktionale Anforderungen}{chapter.7}% 9
-\BOOKMARK [1][]{section.12}{3.5 Dokumentation \(Anforderungsspezifikation\)}{chapter.7}% 10
-\BOOKMARK [1][]{section.13}{3.6 Lastenheft}{chapter.7}% 11
-\BOOKMARK [1][]{section.14}{3.7 Pflichtenheft}{chapter.7}% 12
-\BOOKMARK [0][]{chapter.15}{4 Build Management/ System Building}{}% 13
-\BOOKMARK [1][]{section.34}{4.1 Continous Build}{chapter.15}% 14
-\BOOKMARK [1][]{section.36}{4.2 Die Kosten eines fehlgeschlagenen Builds}{chapter.15}% 15
-\BOOKMARK [1][]{section.37}{4.3 Effektiver Build}{chapter.15}% 16
-\BOOKMARK [0][]{chapter.38}{5 Versions-Management}{}% 17
-\BOOKMARK [0][]{chapter.39}{6 Release Management}{}% 18
-\BOOKMARK [1][]{section.40}{6.1 Aufgaben und funktionale Einordnung}{chapter.39}% 19
-\BOOKMARK [1][]{section.41}{6.2 Einteilung von Releases}{chapter.39}% 20
-\BOOKMARK [1][]{section.42}{6.3 Teilprozesse}{chapter.39}% 21
-\BOOKMARK [0][]{chapter.44}{7 Change Management}{}% 22
-\BOOKMARK [1][]{section.45}{7.1 Der Change Management Prozess}{chapter.44}% 23
-\BOOKMARK [0][]{chapter.46}{8 Fazit}{}% 24
-\BOOKMARK [0][]{appendix*.47}{Abk\374rzungsverzeichnis}{}% 25
-\BOOKMARK [0][]{appendix*.48}{Abbildungsverzeichnis}{}% 26
-\BOOKMARK [0][]{appendix*.49}{Literaturverzeichnis}{}% 27
+\BOOKMARK [1][]{section.7}{2.1 Herkunft von SCM}{chapter.6}% 5
+\BOOKMARK [1][]{section.8}{2.2 Vergleich mit KM}{chapter.6}% 6
+\BOOKMARK [1][]{section.9}{2.3 Aufgaben des SCM}{chapter.6}% 7
+\BOOKMARK [1][]{section.10}{2.4 Relevanz}{chapter.6}% 8
+\BOOKMARK [0][]{chapter.11}{3 Konfigurationsidentifikation}{}% 9
+\BOOKMARK [1][]{section.12}{3.1 Konfigurationsidentifikation / Requirements}{chapter.11}% 10
+\BOOKMARK [1][]{section.13}{3.2 Requirements Engineering / Requirements Management}{chapter.11}% 11
+\BOOKMARK [1][]{section.14}{3.3 Funktionale Anforderungen}{chapter.11}% 12
+\BOOKMARK [1][]{section.15}{3.4 Nicht-funktionale Anforderungen}{chapter.11}% 13
+\BOOKMARK [1][]{section.16}{3.5 Dokumentation \(Anforderungsspezifikation\)}{chapter.11}% 14
+\BOOKMARK [1][]{section.17}{3.6 Lastenheft}{chapter.11}% 15
+\BOOKMARK [1][]{section.18}{3.7 Pflichtenheft}{chapter.11}% 16
+\BOOKMARK [0][]{chapter.19}{4 Versions-Management}{}% 17
+\BOOKMARK [1][]{section.20}{4.1 Anf\344nge der Versionierung}{chapter.19}% 18
+\BOOKMARK [1][]{section.23}{4.2 Anwendungsbeispiel - Git}{chapter.19}% 19
+\BOOKMARK [0][]{chapter.25}{5 Build Management/ System Building}{}% 20
+\BOOKMARK [1][]{section.44}{5.1 Continous Build}{chapter.25}% 21
+\BOOKMARK [1][]{section.46}{5.2 Die Kosten eines fehlgeschlagenen Builds}{chapter.25}% 22
+\BOOKMARK [1][]{section.47}{5.3 Effektiver Build}{chapter.25}% 23
+\BOOKMARK [0][]{chapter.48}{6 Release Management}{}% 24
+\BOOKMARK [1][]{section.49}{6.1 Aufgaben und funktionale Einordnung}{chapter.48}% 25
+\BOOKMARK [1][]{section.50}{6.2 Einteilung von Releases}{chapter.48}% 26
+\BOOKMARK [1][]{section.51}{6.3 Teilprozesse}{chapter.48}% 27
+\BOOKMARK [0][]{chapter.53}{7 Change Management}{}% 28
+\BOOKMARK [1][]{section.54}{7.1 Der Change Management Prozess}{chapter.53}% 29
+\BOOKMARK [0][]{appendix.55}{A Anhang}{}% 30
+\BOOKMARK [0][]{appendix*.56}{Abk\374rzungsverzeichnis}{}% 31
+\BOOKMARK [0][]{appendix*.57}{Abbildungsverzeichnis}{}% 32
+\BOOKMARK [0][]{appendix*.58}{Literaturverzeichnis}{}% 33

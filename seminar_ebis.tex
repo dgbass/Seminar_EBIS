@@ -17,7 +17,8 @@
 	titlepage,
 ] {scrbook}
 
-
+\newcommand{\Gu}{\glqq{}}		%Gänsefüßchen unten
+\newcommand{\Go}{\grqq\ } 	        %Gänsefüßchen oben
 %Begin Dokument
 
 \include{packages}
@@ -72,15 +73,15 @@
 %ab hier SCM:
 \include{chapters/identification}
 
-\include{chapters/buildmgmt}
-
 \include{chapters/versionsmgmt}
+
+\include{chapters/buildmgmt}
 
 \include{chapters/releasemgmt}
 
 \include{chapters/changemgmt}
 
-\include{chapters/fazit}
+%\include{chapters/fazit}
 
 %Ende / Verzeichnisse
 \appendix
