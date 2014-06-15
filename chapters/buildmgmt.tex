@@ -1,6 +1,6 @@
 \chapter{Build Management/ System Building}
 
-Hat man nun den Quellcode der einzelnen Software Komponenten in dem Software- Projekt erstellt, dann möchte man diesen ausführbar machen. Hierum kümmert sich der Build Prozess. Dieser Prozess ist zuständig für das Kompilieren und Linking der einzelnen Software Komponenten in ein ausführbares System. Da die Abhängigkeiten von den Quellcodes, Bildern und weiteren Artefakten bei großen Projekten sehr komplex und unübersichtlich sind, empfiehlt es sich, diese Abhängigkeiten nicht alle manuell zu kompilieren. Hinzu kann natürlich noch kommen, dass für unterschiedliche Systeme unterschiedliche Kombinationsmöglichkeiten von Einzelkomponenten für den Build Prozess benötigt werden. Man erkennt also, dass das einfache kompilieren von Quellcode für ein Software Projekt nicht ausreicht, sondern man weitreichende Überlegungen dazu anstellen muss.
+Hat man nun den Quellcode der einzelnen Software Komponenten in dem Software- Projekt erstellt, dann möchte man diesen ausführbar machen. Hierum kümmert sich der Build Prozess. Dieser Prozess ist zuständig für das Kompilieren und Linking der einzelnen Software Komponenten in ein ausführbares System. Da die Abhängigkeiten von den Quellcodes, Bildern und weiteren Artefakten bei großen Projekten sehr komplex und unübersichtlich sind, empfiehlt es sich, diese Abhängigkeiten nicht alle manuell zu kompilieren. Hinzu kann natürlich noch kommen, dass für unterschiedliche Systeme unterschiedliche Kombinationsmöglichkeiten von Einzelkomponenten für den Build Prozess benötigt werden. Man erkennt also, dass das einfache Kompilieren von Quellcode für ein Software Projekt nicht ausreicht, sondern man weitreichende Überlegungen dazu anstellen muss.
 \\
 Für diesen Build Schritt in der Softwareentwicklung gibt es inzwischen Unterstützung von automatischen Tools. 
 Diese Tools enthalten meistens eine Abhängigkeitsspezifikationssprache und einen Interpreter für  diese Sprache. Ebenso ist meist noch die Möglichkeit zur verteilten Kompilation, die Auswahl von Tools und Support für die Instanziierung des Softwareprojektes gegeben. 
@@ -9,7 +9,7 @@ Das bekannteste Tool für UNIX ist make für die C/C++ Entwicklung. Make ist daf
 
 \lstinputlisting[style=makefile,label=makefile,caption=Makefile für Speicherverwaltung aus Systemnahe Software 1-WS 2013/14]{code/Makefile}
 
-In Listing \ref{makefile} werden zuerst die Quellen, die Objekte( die Abhängigkeiten) und die Zielquelle definiert, ebenso der benötigte Kompiler mit Option.
+In Listing \ref{makefile} werden zuerst die Quellen, die Objekte (die Abhängigkeiten) und die Zielquelle definiert, ebenso der benötigte Kompiler mit Option.
 Anschließend werden die einzelnen Befehle beschrieben, also was passiert bei dem Aufruf von \textit{make clean, make realclean} und \textit{make depend}. In den Zeilen 15-17 findet man dann die einzelnen Abhängigkeiten, die mit make depend gefunden wurden.
 \\
 Weitere bekannte Tools sind Apache Ant, das wohl häufigste verwendete Tool für Java, das analog zu make in einer Datei build.xml die Abhängigkeiten beschreibt, Maven (ebenfalls Java), Jam, MS Build (.NET) und scons.
@@ -27,7 +27,7 @@ Doch auch an solche automatischen Tools gibt es eine Anforderungsliste.
 \section{Continous Build}
 Schnell stellt sich jedoch die Frage wie oft denn ein solcher Build Prozess durchgeführt werden soll? Soll er nach jeder Änderung, jeder fertigen Teilkomponente durchgeführt werden, um die Funktionen zu testen, oder soll erst am Ende vom Projekt ein kompletter Durchlauf des Build-Prozesses durchlaufen?
 \\
-Hierfür gibt es keine richtige und falsche Antwort. Die sollte je nach Komplexität des Softwareprojekt individuell entschieden werden. Denn ein solcher Build Prozess kann je nach Komplexität der zu erstellenden Software sehr rechenintensiv und lange sein. 
+Hierfür gibt es keine richtige und falsche Antwort. Die sollte je nach Komplexität des Softwareprojekts individuell entschieden werden. Denn ein solcher Build Prozess kann je nach Komplexität der zu erstellenden Software sehr rechenintensiv und lange sein. 
 \\
 Zum einen wird ein Build aufwendiger, je seltener dieser durchgeführt wird, da die Fehlerwahrscheinlichkeit steigt und die Einzelkomponenten der Software auseinander laufen können.
 \\
@@ -51,7 +51,7 @@ Was passiert wenn der Build Prozess fehlschlägt, weil aus welchen Gründen auch
 \\
 Man unterscheidet hierbei bei den Fehlerentstehung zwischen einem \textit{Loud failure}, einem \textit{Silent failure} und einem \textit{Intentional failure}.
 Der Loud failure ist ist der Zustand, wenn der Kompiler eine Datei nicht übersetzt, oder das Linking nicht korrekt ist und den Build zum Abbruch bringt.
-Der Silent failure ist vermutlich ein schwer zu findenden Fehler, denn der Build war hier erfolgreich, aber der gewünschte Output ist nicht korrekt, weil \acs{z. B.} ein geänderter Code nicht re-kompiliert oder eine alte Bibliothek verwendet wurde.
+Der Silent failure ist im Regelfall ein schwer zu findender Fehler, denn der Build war hier erfolgreich, aber der gewünschte Output ist nicht korrekt, weil \acs{z. B.} ein geänderter Code nicht re-kompiliert oder eine alte Bibliothek verwendet wurde.
 \\
 Der dritte Fehler, der Intentional failure, der vermutlich am  schwersten zu finden ist, entsteht, wenn der Quellcode Backdoors, \acs{etc.} enthält. \cite{software-analysis}
 
