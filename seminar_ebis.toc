@@ -14,7 +14,7 @@
 \contentsline {section}{\numberline {3.5}Dokumentation (Anforderungsspezifikation)}{7}{section.16}
 \contentsline {section}{\numberline {3.6}Lastenheft}{8}{section.17}
 \contentsline {section}{\numberline {3.7}Pflichtenheft}{8}{section.18}
-\contentsline {chapter}{\numberline {4}Versions-Management}{10}{chapter.19}
+\contentsline {chapter}{\numberline {4}Versionsmanagement}{10}{chapter.19}
 \contentsline {section}{\numberline {4.1}Anf\IeC {\"a}nge der Versionierung}{10}{section.20}
 \contentsline {section}{\numberline {4.2}Anwendungsbeispiel - Git}{12}{section.23}
 \contentsline {chapter}{\numberline {5}Build Management/ System Building}{14}{chapter.25}
