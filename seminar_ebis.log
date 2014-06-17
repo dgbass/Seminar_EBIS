@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.25)  17 JUN 2014 08:33
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.25)  17 JUN 2014 10:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2033,11 +2033,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--66
 
  (./chapters/identification.tex
 Kapitel 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--22
-
- []
-
 [5
 
 
@@ -2318,7 +2313,7 @@ st/fonts/type1/public/lm/lmsy9.pfb></usr/local/texlive/2011/texmf-dist/fonts/ty
 pe1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw
 /helvetic/uhvr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/helvet
 ic/uhvro8a.pfb>
-Output written on seminar_ebis.pdf (35 pages, 1077903 bytes).
+Output written on seminar_ebis.pdf (35 pages, 1077912 bytes).
 PDF statistics:
  588 PDF objects out of 1000 (max. 8388607)
  524 compressed objects within 6 object streams

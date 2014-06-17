@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {3.1}Konfigurationsidentifikation / Requirements}{5}{section.12}
 \contentsline {section}{\numberline {3.2}Requirements Engineering / Requirements Management}{5}{section.13}
 \contentsline {section}{\numberline {3.3}Funktionale Anforderungen}{6}{section.14}
-\contentsline {section}{\numberline {3.4}Nicht-funktionale Anforderungen}{7}{section.15}
+\contentsline {section}{\numberline {3.4}Nicht-funktionale Anforderungen}{6}{section.15}
 \contentsline {section}{\numberline {3.5}Dokumentation (Anforderungsspezifikation)}{7}{section.16}
 \contentsline {section}{\numberline {3.6}Lastenheft}{8}{section.17}
 \contentsline {section}{\numberline {3.7}Pflichtenheft}{8}{section.18}
