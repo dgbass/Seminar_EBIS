@@ -3,7 +3,7 @@
 Moderne Softwareprogrammierung wird immer komplexer, sie muss meist von mehreren Programmierern gemeinsam erledigt werden, dies erfordert einen hohen Organisationsaufwand, da jeder Programmierer nur noch einen kleinen Teil des Quellcodes erstellt und diese Teile zusammengeführt werden müssen. Ferner besteht ein System sowohl aus verschiedenen Versionen als auch Varianten, dies muss ebenfalls gemanaged werden insbesondere um „Bugs“ zu verhindern.
 \\
 Das Erstellen einer neuen Version bedingt durch einen Ausschneiden, Einfügen oder Löschen von bereits vorhandenem Code wird dabei \Gu history step\Go (\cite{cm_vc}, S. 41) genannt. 
-Die Schrittweise Entwicklung wird durch die Versionskontrolle nachvollziehbar gemacht, da sowohl das Original als auch die Vorgängerversion für jeden \Gu history step\Go erhalten bleiben. So ist die Entwicklung auch später noch nachvollziehbar und im Gegensatz zu einem herkömmlichen Back-Up wurde mit der Prämisse gearbeitet so viel Speicherplatz wie möglich zu sparen. Dies wird durch Kompressionsverfahren ermöglicht. \cite{itil_infosec}
+Die Schrittweise Entwicklung wird durch die Versionskontrolle nachvollziehbar gemacht, da sowohl das Original als auch die Vorgängerversion für jeden \Gu history step\Go erhalten bleiben. So ist die Entwicklung auch später noch nachvollziehbar und im Gegensatz zu einem herkömmlichen Back-Up wurde mit der Prämisse gearbeitet so viel Speicherplatz wie möglich zu sparen. Dies wird durch Kompressionsverfahren ermöglicht. \cite{cm_vc}
 \\
 Gemäß dem ITIL-Standard umfasst Versionsmanagement „alle Verfahren von der Anforderungsbearbeitung über die Planung der Umsetzung, Tests und Abnahme von Soft- und Hardwareversionen bis hin zur organisatorischen und technischen Vorbereitung der Einführung einer Komponente“. \cite{itil_infosec}, S. 20
 
@@ -20,7 +20,7 @@ Die Idee von SCCS war, dass eine Software \Gu linear\Go entwickelt wird, also ei
 	\caption{ SCCS nach \cite{cm_vc}, S. 43}
 \end{figure}
 
-Wichtig dabei ist, dass es sich um \Gu forward deltas \Go (\cite{cm_vc}, S. 43), also vorwärts gerichtete Deltas, handelt. Dies heißt, dass SCCS immer die Ursprungsversion speichert und für diese dann alle weiteren Änderungen. Die gesamte Speicherung erfolgt dabei in einer einzigen Datei und es ist auch möglich, dass eine Version zwei Nachfolger hat, jedoch nicht mehr als zwei. \cite{itil_infosec}
+Wichtig dabei ist, dass es sich um \Gu forward deltas \Go (\cite{cm_vc}, S. 43), also vorwärts gerichtete Deltas, handelt. Dies heißt, dass SCCS immer die Ursprungsversion speichert und für diese dann alle weiteren Änderungen. Die gesamte Speicherung erfolgt dabei in einer einzigen Datei und es ist auch möglich, dass eine Version zwei Nachfolger hat, jedoch nicht mehr als zwei. \cite{cm_vc}
 
 \textbf{RCS (Revision Control System)}
 \\
@@ -28,7 +28,7 @@ Wichtig dabei ist, dass es sich um \Gu forward deltas \Go (\cite{cm_vc}, S. 43),
 \\
 Wie auch \acs{SCCS} unterstützt \acs{RCS} jedoch nur eine einzelne Datei zur Speicherung des Codes und es fehlt auch die Unterstützung für komplette Projekte bzw. Ordnerstrukturen und es war Entwicklern auch nicht möglich gemeinsam an einem großen Projekt zu arbeiten.
 \\
-RCS war von Anfang an darauf ausgelegt, dass die Entwicklung einer Baumstruktur gleicht, also eine Version auch mehrere Nachfolgerversionen haben kann. Deswegen wird dies im Gegensatz zu SCCS auch besser unterstützt. Des Weiteren wurde in RCS auch das automatische Zusammenführen verschiedener Versionen implementiert. Dabei können Versionen von Verschiedenen Verästelungen automatisch zu einer neuen Version zusammengefasst werden und mögliche Differenzen in beiden Versionen werden Markiert und für den Programmierer sichtbar gemacht wodurch dieser manuell entscheiden kann welchen Teil des Codes er übernehmen will. Im Gegensatz zu SCCS wird in RCS auch nur die aktuellste Version gespeichert und alle anderen älteren \acs{bzw.} möglicherweise parallel erstellten Versionen sind über Deltas wiederherstellbar. Diese sind für denselben Ast rückwärts gerichtet und für eine Verästelung vorwärtsgerichtet. Ein Schema von RCS ist auf der nachfolgenden Abbildung ersichtlich. \cite{itil_infosec}
+RCS war von Anfang an darauf ausgelegt, dass die Entwicklung einer Baumstruktur gleicht, also eine Version auch mehrere Nachfolgerversionen haben kann. Deswegen wird dies im Gegensatz zu SCCS auch besser unterstützt. Des Weiteren wurde in RCS auch das automatische Zusammenführen verschiedener Versionen implementiert. Dabei können Versionen von Verschiedenen Verästelungen automatisch zu einer neuen Version zusammengefasst werden und mögliche Differenzen in beiden Versionen werden Markiert und für den Programmierer sichtbar gemacht wodurch dieser manuell entscheiden kann welchen Teil des Codes er übernehmen will. Im Gegensatz zu SCCS wird in RCS auch nur die aktuellste Version gespeichert und alle anderen älteren \acs{bzw.} möglicherweise parallel erstellten Versionen sind über Deltas wiederherstellbar. Diese sind für denselben Ast rückwärts gerichtet und für eine Verästelung vorwärtsgerichtet. Ein Schema von RCS ist auf der nachfolgenden Abbildung ersichtlich. \cite{cm_vc}
 
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{img/vcm2.png}
@@ -38,7 +38,7 @@ RCS war von Anfang an darauf ausgelegt, dass die Entwicklung einer Baumstruktur 
 
 \textbf{Andere Versionierungssysteme}
 \\
-Natürlich sind die beiden erwähnten System (SCCS und RCS) nicht die einzigen verfügbaren Systeme. Es gibt weitere Möglichkeiten der Versionsverwaltung wie z.B. CVS oder VOODOO, auf diese soll jedoch nicht näher eingegangen werden. \cite{itil_infosec}
+Natürlich sind die beiden erwähnten System (SCCS und RCS) nicht die einzigen verfügbaren Systeme. Es gibt weitere Möglichkeiten der Versionsverwaltung wie z.B. CVS oder VOODOO, auf diese soll jedoch nicht näher eingegangen werden. \cite{cm_vc}
 
 \section{Anwendungsbeispiel - Git}
 Ein verfügbares freies Programm für die Versionierung, welches heutzutage häufig genutzt wird, ist Git. Git wurde von Linus Torvalds ursprünglich für die koordinierte Entwicklung des Linux-Betriebssystems geschrieben. Im Gegensatz zu vielen anderen Tools arbeitet Git mit \Gu software revisions \Go (\cite{git_tool}, S. 1) und nicht mit Versionen die für viele Programmierer insbesondere bei Freizeitprojekten nicht von Belang sind. Stattdessen wollen diese nachvollziehen können welche Änderungen übernommen worden sind oder wie ein von ihnen geschriebener Code-Teil in das Programm eingebettet wurde.
